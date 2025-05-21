@@ -143,6 +143,39 @@
         text-align: start;
     }
 
+
+    /* ============= WORK LIST */
+    .work__list {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    /* ============= About */
+    .about-row {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .about__media {
+        width: 100%;
+    }
+
+    /* Ẩn ảnh small */
+    .about__img--small {
+        display: none;
+    }
+
+    .about__img--big {
+        width: 100%;
+        border-radius: 15px;
+        margin: 25px auto;
+    }
+
+    .about__content {
+        width: 90%;
+        text-align: center;
+    }
+
 }
 
 
