@@ -97,6 +97,52 @@
         
     }
 
+
+    /* ================  HERO */
+    .hero {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero__content {
+        order: 2;
+    }
+
+    .hero__media {
+        order: 1;
+    }
+
+    .hero__content {
+        width: 80%;
+        text-align: center;
+        margin: 22px auto;
+    }
+
+    .hero__row {
+        justify-content: center;
+    }
+
+
+    /* ======================= Service */
+    .service__row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .service__img {
+        width: 100%;
+    }
+
+    .service__list {
+        text-align: center;
+    }
+
+    .service-item {
+        /* Giới hạn độ rộng */
+        width: 90%;
+        text-align: start;
+    }
+
 }
 
 
@@ -112,7 +158,7 @@
 
 /* Tạm ẩn phần không liên quan */
 /* .hero, */
-.footer,
-.main {
+/* .main,  */
+.footer {
     display: none;
 }
