@@ -196,12 +196,41 @@
         margin: 0 auto;
     }
 
+    /* ================= Blog  */
+    .blog__inner {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .blog__list {
+        order: 1;
+    }
+
+    .blog__content {
+        order: 2;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog__heading {
+        max-width: 90%;
+    }
+
 }
 
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* FOOTER */
+    .footer-hidden-tablet {
+        display: none;
+    }
 
+    .footer__top {
+        grid-template-columns: 0.5fr 0.5fr 1fr;
+    }
 }
 
 /* MOBILE */
@@ -212,6 +241,6 @@
 /* Tạm ẩn phần không liên quan */
 /* .hero, */
 /* .main,  */
-.footer {
+/* .footer {
     display: none;
-}
+} */
